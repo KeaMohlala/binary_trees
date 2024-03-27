@@ -13,7 +13,7 @@ binary_tree_t **nodeQueue;
 binary_tree_t *currentNode;
 int start, end;
 
-if (!tree || !func == NULL)
+if (!tree || !func)
 return;
 
 nodeQueue = malloc(sizeof(binary_tree_t *));
